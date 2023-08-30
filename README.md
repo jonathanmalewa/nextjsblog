@@ -1,0 +1,2 @@
+# nextjsblog
+project pertama nextJS
