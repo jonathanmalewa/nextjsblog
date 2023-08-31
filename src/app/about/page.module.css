@@ -1,0 +1,70 @@
+/* page.module.css */
+
+.container {
+}
+
+.imgContainer {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  display: flex; /* Tambahkan display flex agar item di dalam imgContainer sejajar */
+  flex-direction: row; /* Gunakan flex-direction row */
+  align-items: center; /* Untuk vertikal centering */
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.imgText {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: #53c28b;
+  padding: 10px;
+  color: white;
+  margin-left: 20px; /* Tambahkan margin kiri agar tidak terlalu dekat dengan gambar */
+}
+
+.imgTitle {
+  margin: 0;
+  font-size: 24px;
+}
+
+.imgDesc {
+  margin: 0;
+  font-size: 18px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column; /* Gunakan flex-direction row */
+  justify-content: space-between; /* Untuk memberi jarak seimbang di antara item */
+  align-items: flex-start; /* Untuk mengatur item pada posisi atas */
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.item {
+  flex: 1;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify;
+}
